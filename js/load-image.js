@@ -295,6 +295,10 @@
         define(function () {
             return loadImage;
         });
+
+    } else if (typeof exports === 'object') {
+        module.exports = loadImage;
+
     } else {
         $.loadImage = loadImage;
     }

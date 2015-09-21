@@ -1,8 +1,8 @@
 {
-  "name": "blueimp-load-image",
-  "version": "1.14.0",
+  "name": "load-image",
+  "version": "1.0.0",
   "title": "JavaScript Load Image",
-  "description": "JavaScript Load Image is a library to load images provided as File or Blob objects or via URL. It returns an optionally scaled and/or cropped HTML img or canvas element. It also provides a method to parse image meta data to extract Exif tags and thumbnails and to restore the complete image header after resizing.",
+  "description": "to make load image work because of a false name in the require factory of blueimp-jquery fileupload",
   "keywords": [
     "javascript",
     "load",
@@ -20,22 +20,17 @@
     "thumbnail",
     "resizing"
   ],
-  "homepage": "https://github.com/blueimp/JavaScript-Load-Image",
+
+  "main": "index.js",
+
+  "homepage": "https://github.com/mychiara/JavaScript-Load-Image",
   "author": {
-    "name": "Sebastian Tschan",
-    "url": "https://blueimp.net"
+    "name": "Andy Ruck"
   },
-  "maintainers": [
-    {
-      "name": "Sebastian Tschan",
-      "url": "https://blueimp.net"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/blueimp/JavaScript-Load-Image.git"
+    "url": "git://github.com/mychiara/JavaScript-Load-Image.git"
   },
-  "bugs": "https://github.com/blueimp/JavaScript-Load-Image/issues",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",
